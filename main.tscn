@@ -1,0 +1,171 @@
+[gd_scene format=3 uid="uid://cadkr4u1ofj2y"]
+
+[ext_resource type="Script" uid="uid://c83v3njct3hfp" path="res://main.gd" id="1_ig7tw"]
+[ext_resource type="PackedScene" uid="uid://bh7emde0wyvmo" path="res://player.tscn" id="2_0xm2m"]
+[ext_resource type="PackedScene" uid="uid://8b1ivusb3y5o" path="res://world.tscn" id="2_h2yge"]
+[ext_resource type="PackedScene" uid="uid://hjhsft8h7tbe" path="res://tree.tscn" id="4_1bvp3"]
+[ext_resource type="PackedScene" uid="uid://cfrm1x2uvk6bo" path="res://stick.tscn" id="4_lquwl"]
+
+[node name="main" type="Node2D" unique_id=2073614785]
+script = ExtResource("1_ig7tw")
+
+[node name="World" parent="." unique_id=1889406203 instance=ExtResource("2_h2yge")]
+position = Vector2(12, 12)
+
+[node name="Tree" parent="." unique_id=328683326 instance=ExtResource("4_1bvp3")]
+position = Vector2(147, 45)
+
+[node name="Tree2" parent="." unique_id=347197823 instance=ExtResource("4_1bvp3")]
+position = Vector2(179, 281)
+
+[node name="Tree3" parent="." unique_id=92732867 instance=ExtResource("4_1bvp3")]
+position = Vector2(91, 139)
+
+[node name="Tree4" parent="." unique_id=668839830 instance=ExtResource("4_1bvp3")]
+position = Vector2(156, 276)
+
+[node name="Tree5" parent="." unique_id=1508575757 instance=ExtResource("4_1bvp3")]
+position = Vector2(690, 211)
+
+[node name="Tree6" parent="." unique_id=1238370981 instance=ExtResource("4_1bvp3")]
+position = Vector2(109, 231)
+
+[node name="Tree7" parent="." unique_id=1725985366 instance=ExtResource("4_1bvp3")]
+position = Vector2(1086, 134)
+
+[node name="Tree8" parent="." unique_id=1235648401 instance=ExtResource("4_1bvp3")]
+position = Vector2(130, 397)
+
+[node name="Tree9" parent="." unique_id=945372548 instance=ExtResource("4_1bvp3")]
+position = Vector2(799, 409)
+
+[node name="Tree10" parent="." unique_id=376476449 instance=ExtResource("4_1bvp3")]
+position = Vector2(912, 258)
+
+[node name="Tree11" parent="." unique_id=2104438924 instance=ExtResource("4_1bvp3")]
+position = Vector2(453, 496)
+
+[node name="Tree12" parent="." unique_id=1976943911 instance=ExtResource("4_1bvp3")]
+position = Vector2(901, 312)
+
+[node name="Tree13" parent="." unique_id=1570755981 instance=ExtResource("4_1bvp3")]
+position = Vector2(1125, 602)
+
+[node name="Tree14" parent="." unique_id=360389595 instance=ExtResource("4_1bvp3")]
+position = Vector2(286, 615)
+
+[node name="Tree15" parent="." unique_id=2133868225 instance=ExtResource("4_1bvp3")]
+position = Vector2(223, 556)
+
+[node name="Tree16" parent="." unique_id=521978361 instance=ExtResource("4_1bvp3")]
+position = Vector2(162, 595)
+
+[node name="Tree17" parent="." unique_id=542135556 instance=ExtResource("4_1bvp3")]
+position = Vector2(89, 575)
+
+[node name="Tree18" parent="." unique_id=1393399006 instance=ExtResource("4_1bvp3")]
+position = Vector2(49, 534)
+
+[node name="Tree19" parent="." unique_id=463647241 instance=ExtResource("4_1bvp3")]
+position = Vector2(71, 463)
+
+[node name="Tree20" parent="." unique_id=1336051655 instance=ExtResource("4_1bvp3")]
+position = Vector2(27, 607)
+
+[node name="Tree21" parent="." unique_id=55895530 instance=ExtResource("4_1bvp3")]
+position = Vector2(178, 25)
+
+[node name="Tree22" parent="." unique_id=1128748324 instance=ExtResource("4_1bvp3")]
+position = Vector2(1115, 505)
+
+[node name="Tree23" parent="." unique_id=1318221011 instance=ExtResource("4_1bvp3")]
+position = Vector2(1109, 393)
+
+[node name="Tree24" parent="." unique_id=1985202655 instance=ExtResource("4_1bvp3")]
+position = Vector2(1091, 290)
+
+[node name="Tree25" parent="." unique_id=941663082 instance=ExtResource("4_1bvp3")]
+position = Vector2(1067, 599)
+
+[node name="Tree26" parent="." unique_id=346826933 instance=ExtResource("4_1bvp3")]
+position = Vector2(1082, 386)
+
+[node name="Tree27" parent="." unique_id=571518887 instance=ExtResource("4_1bvp3")]
+position = Vector2(1088, 491)
+
+[node name="Tree28" parent="." unique_id=170177804 instance=ExtResource("4_1bvp3")]
+position = Vector2(1125, 454)
+
+[node name="Tree29" parent="." unique_id=218212508 instance=ExtResource("4_1bvp3")]
+position = Vector2(1125, 544)
+
+[node name="Tree30" parent="." unique_id=386935815 instance=ExtResource("4_1bvp3")]
+position = Vector2(346, 611)
+
+[node name="Tree31" parent="." unique_id=2070052971 instance=ExtResource("4_1bvp3")]
+position = Vector2(149, 487)
+
+[node name="Tree32" parent="." unique_id=425224277 instance=ExtResource("4_1bvp3")]
+position = Vector2(80, 494)
+
+[node name="Tree33" parent="." unique_id=96488854 instance=ExtResource("4_1bvp3")]
+position = Vector2(75, 355)
+
+[node name="Tree34" parent="." unique_id=1117944345 instance=ExtResource("4_1bvp3")]
+position = Vector2(866, 355)
+
+[node name="Tree35" parent="." unique_id=1751883328 instance=ExtResource("4_1bvp3")]
+position = Vector2(851, 255)
+
+[node name="Tree36" parent="." unique_id=1691961700 instance=ExtResource("4_1bvp3")]
+position = Vector2(800, 273)
+
+[node name="Tree37" parent="." unique_id=1597527346 instance=ExtResource("4_1bvp3")]
+position = Vector2(775, 218)
+
+[node name="Tree38" parent="." unique_id=808361719 instance=ExtResource("4_1bvp3")]
+position = Vector2(1103, 145)
+
+[node name="Tree39" parent="." unique_id=1582531590 instance=ExtResource("4_1bvp3")]
+position = Vector2(1101, 221)
+
+[node name="Tree40" parent="." unique_id=1285561893 instance=ExtResource("4_1bvp3")]
+position = Vector2(1043, 178)
+
+[node name="Stick" parent="." unique_id=1814906209 instance=ExtResource("4_lquwl")]
+position = Vector2(809, 346)
+
+[node name="Stick2" parent="." unique_id=1226718537 instance=ExtResource("4_lquwl")]
+position = Vector2(1065, 542)
+
+[node name="Stick3" parent="." unique_id=2027875645 instance=ExtResource("4_lquwl")]
+position = Vector2(217, 625)
+
+[node name="Stick4" parent="." unique_id=283406456 instance=ExtResource("4_lquwl")]
+position = Vector2(1113, 74)
+
+[node name="Stick5" parent="." unique_id=723653582 instance=ExtResource("4_lquwl")]
+position = Vector2(1113, 349)
+
+[node name="Stick6" parent="." unique_id=1271026895 instance=ExtResource("4_lquwl")]
+position = Vector2(93, 293)
+
+[node name="Stick7" parent="." unique_id=191326556 instance=ExtResource("4_lquwl")]
+position = Vector2(979, 282)
+
+[node name="Stick8" parent="." unique_id=426746103 instance=ExtResource("4_lquwl")]
+position = Vector2(314, 143)
+
+[node name="Player" parent="." unique_id=1314171463 instance=ExtResource("2_0xm2m")]
+position = Vector2(579, 325)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=2101440548]
+
+[node name="StickCounter" type="Label" parent="CanvasLayer" unique_id=1190393139]
+offset_left = 1037.0
+offset_top = 17.0
+offset_right = 1130.0
+offset_bottom = 51.0
+theme_override_colors/font_color = Color(0.9529412, 0.9098039, 0.8117647, 1)
+theme_override_font_sizes/font_size = 24
+text = "Sticks: 0"
