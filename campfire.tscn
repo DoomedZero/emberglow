@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://dvt867ekptwtg"]
+
+[ext_resource type="Script" uid="uid://cgdi872dx6bgq" path="res://campfire.gd" id="1_oufq8"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_b7n0c"]
+
+[node name="Campfire" type="Area2D" unique_id=1807890726]
+script = ExtResource("1_oufq8")
+
+[node name="Logs" type="Polygon2D" parent="." unique_id=1929127190]
+color = Color(0.4745098, 0.31764707, 0.22745098, 1)
+polygon = PackedVector2Array(-20, -4, 20, -4, 20, 4, -20, 4)
+
+[node name="Flame" type="Polygon2D" parent="." unique_id=276345297]
+visible = false
+color = Color(1, 0.54901963, 0.25882354, 1)
+polygon = PackedVector2Array(0, -24, -10, 0, 10, 0)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1810566766]
+shape = SubResource("RectangleShape2D_b7n0c")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]
