@@ -496,7 +496,6 @@ vframes = 3
 frame = 1
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1522195341]
-visible = false
 position = Vector2(8, 8)
 shape = SubResource("RectangleShape2D_b7n0c")
 
@@ -510,3 +509,9 @@ anim_player = NodePath("../AnimationPlayer")
 parameters/Idle/blend_position = Vector2(0, 0)
 parameters/Turn/blend_position = Vector2(0, 0)
 parameters/Walk/blend_position = Vector2(0, 0)
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1493901649]
+
+[node name="RayCast2D" type="RayCast2D" parent="." unique_id=8342947]
+position = Vector2(8, 6)
+target_position = Vector2(0, 16)
