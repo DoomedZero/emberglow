@@ -8,6 +8,7 @@
 [ext_resource type="PackedScene" uid="uid://baqhqpdu20mgo" path="res://camp.tscn" id="6_7mycd"]
 [ext_resource type="Texture2D" uid="uid://cbujhgnugi78u" path="res://asset/poke/Grass/tall_grass.png" id="7_272bh"]
 [ext_resource type="PackedScene" uid="uid://cfrm1x2uvk6bo" path="res://stick.tscn" id="8_5vw27"]
+[ext_resource type="PackedScene" uid="uid://vbyig611goay" path="res://berry.tscn" id="9_dg77c"]
 [ext_resource type="Script" uid="uid://0v7b8ghfeqge" path="res://HUD.gd" id="9_kek77"]
 [ext_resource type="FontFile" uid="uid://d20d2mpg8mmg1" path="res://asset/pokemon-fire-red-cufonfonts/pokemon_fire_red.ttf" id="10_4c57u"]
 [ext_resource type="AudioStream" uid="uid://2jlwf7myf5x5" path="res://asset/walking_toward_the_fire.mp3" id="11_efxa6"]
@@ -317,6 +318,9 @@ position = Vector2(-144, -128)
 position = Vector2(-64, -272)
 
 [node name="Tree294" parent="WorldObjects/Trees" unique_id=677701001 instance=ExtResource("4_1bvp3")]
+position = Vector2(112, -240)
+
+[node name="Tree299" parent="WorldObjects/Trees" unique_id=1929293947 instance=ExtResource("4_1bvp3")]
 position = Vector2(112, -240)
 
 [node name="Tree295" parent="WorldObjects/Trees" unique_id=1942785791 instance=ExtResource("4_1bvp3")]
@@ -1098,6 +1102,32 @@ position = Vector2(-336, 288)
 
 [node name="Tree191" parent="WorldObjects/Trees" unique_id=331391469 instance=ExtResource("4_1bvp3")]
 position = Vector2(-368, 288)
+
+[node name="Berries" type="Node2D" parent="WorldObjects" unique_id=704794922]
+
+[node name="Berry" parent="WorldObjects/Berries" unique_id=833356693 instance=ExtResource("9_dg77c")]
+position = Vector2(32, -192)
+
+[node name="Berry2" parent="WorldObjects/Berries" unique_id=1617466160 instance=ExtResource("9_dg77c")]
+position = Vector2(16, -176)
+
+[node name="Berry3" parent="WorldObjects/Berries" unique_id=721856193 instance=ExtResource("9_dg77c")]
+position = Vector2(112, -240)
+
+[node name="Berry4" parent="WorldObjects/Berries" unique_id=96875537 instance=ExtResource("9_dg77c")]
+position = Vector2(128, -224)
+
+[node name="Berry5" parent="WorldObjects/Berries" unique_id=1803207102 instance=ExtResource("9_dg77c")]
+position = Vector2(192, -192)
+
+[node name="Berry6" parent="WorldObjects/Berries" unique_id=700477853 instance=ExtResource("9_dg77c")]
+position = Vector2(-48, -144)
+
+[node name="Berry7" parent="WorldObjects/Berries" unique_id=1504221805 instance=ExtResource("9_dg77c")]
+position = Vector2(-48, -272)
+
+[node name="Berry8" parent="WorldObjects/Berries" unique_id=649763085 instance=ExtResource("9_dg77c")]
+position = Vector2(144, -320)
 
 [node name="HUD" type="CanvasLayer" parent="." unique_id=1803004934]
 script = ExtResource("9_kek77")
