@@ -92,3 +92,4 @@ func move(delta):
 			position = initial_position + (TILE_SIZE * input_direction * percent_moved_to_next_tile)
 	else:
 		is_moving = false
+		percent_moved_to_next_tile = 0.0
