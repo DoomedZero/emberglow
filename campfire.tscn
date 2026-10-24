@@ -1,19 +1,40 @@
 [gd_scene format=3 uid="uid://cae2ycvu0hake"]
 
 [ext_resource type="Texture2D" uid="uid://da685hpv7x6ph" path="res://asset/tiles/Pixel Campfire and Tent Sprite Sheet.png" id="1_kvmle"]
+[ext_resource type="Script" uid="uid://rsmv03wmb0dr" path="res://CampfireInteraction.gd" id="2_b5him"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_b7n0c"]
 size = Vector2(32, 16)
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_oufq8"]
+size = Vector2(32, 22)
+
 [node name="Campfire" type="StaticBody2D" unique_id=2043319952]
 
-[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1042997611]
+[node name="UnlitSprite" type="Sprite2D" parent="." unique_id=1042997611]
 scale = Vector2(0.1, 0.1)
 texture = ExtResource("1_kvmle")
 centered = false
 region_enabled = true
 region_rect = Rect2(145.15659, 326.88083, 324.76413, 282.17215)
 
+[node name="LitSprite" type="Sprite2D" parent="." unique_id=1039879836]
+visible = false
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("1_kvmle")
+centered = false
+offset = Vector2(0, -60)
+region_enabled = true
+region_rect = Rect2(770.5178, 282.62936, 324.76416, 314.02267)
+
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=555980066]
 position = Vector2(16, 8)
 shape = SubResource("RectangleShape2D_b7n0c")
+
+[node name="InteractionArea" type="Area2D" parent="." unique_id=813003648]
+visible = false
+script = ExtResource("2_b5him")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="InteractionArea" unique_id=219517474]
+position = Vector2(16, 13)
+shape = SubResource("RectangleShape2D_oufq8")

@@ -192,7 +192,22 @@ position = Vector2(224, 112)
 [node name="Stick5" parent="Sticks" unique_id=484530933 instance=ExtResource("8_5vw27")]
 position = Vector2(-64, 0)
 
-[node name="Stick6" parent="Sticks" unique_id=1569617379 instance=ExtResource("8_5vw27")]
+[node name="Stick8" parent="Sticks" unique_id=1569617379 instance=ExtResource("8_5vw27")]
+position = Vector2(128, 192)
+
+[node name="Stick9" parent="Sticks" unique_id=176586365 instance=ExtResource("8_5vw27")]
+position = Vector2(160, 192)
+
+[node name="Stick10" parent="Sticks" unique_id=1218643154 instance=ExtResource("8_5vw27")]
+position = Vector2(160, 176)
+
+[node name="Stick11" parent="Sticks" unique_id=2079562401 instance=ExtResource("8_5vw27")]
+position = Vector2(160, 160)
+
+[node name="Stick12" parent="Sticks" unique_id=1060145901 instance=ExtResource("8_5vw27")]
+position = Vector2(160, 144)
+
+[node name="Stick6" parent="Sticks" unique_id=701009020 instance=ExtResource("8_5vw27")]
 position = Vector2(208, -80)
 
 [node name="Stick7" parent="Sticks" unique_id=878294508 instance=ExtResource("8_5vw27")]
