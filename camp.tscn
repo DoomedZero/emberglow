@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://baqhqpdu20mgo"]
+
+[ext_resource type="Texture2D" uid="uid://dpdbsyn1fqcab" path="res://asset/tiles/Blue_Pixel_Camping_Tent_Sprite-removebg-preview.png" id="1_kvmle"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_b7n0c"]
+size = Vector2(48, 32)
+
+[node name="Camp" type="StaticBody2D" unique_id=760921978]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1166798233]
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("1_kvmle")
+centered = false
+region_enabled = true
+region_rect = Rect2(136.45276, 176.78671, 226.93549, 169.83563)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1523349035]
+position = Vector2(24, 16)
+shape = SubResource("RectangleShape2D_b7n0c")

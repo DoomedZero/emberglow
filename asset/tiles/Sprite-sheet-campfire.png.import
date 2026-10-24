@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://j8muemlgaanf"
-path="res://.godot/imported/oaks_lab_interior.png-81ed8e51424c0ca76ff2632443ceced3.ctex"
+uid="uid://dgpp4ejr4tq8n"
+path="res://.godot/imported/Sprite-sheet-campfire.png-e65318c63dbf611c6c33be7ea9c1aea9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asset/poke/Buildings/pallet town/oaks_lab_interior.png"
-dest_files=["res://.godot/imported/oaks_lab_interior.png-81ed8e51424c0ca76ff2632443ceced3.ctex"]
+source_file="res://asset/tiles/Sprite-sheet-campfire.png"
+dest_files=["res://.godot/imported/Sprite-sheet-campfire.png-e65318c63dbf611c6c33be7ea9c1aea9.ctex"]
 
 [params]
 

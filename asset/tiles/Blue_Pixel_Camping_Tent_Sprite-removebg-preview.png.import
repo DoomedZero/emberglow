@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c43306a6q2ilx"
-path="res://.godot/imported/mat.png-328abbe52e696fc73f54b05cc874078f.ctex"
+uid="uid://dpdbsyn1fqcab"
+path="res://.godot/imported/Blue_Pixel_Camping_Tent_Sprite-removebg-preview.png-f29d1b954dcffce98971be40179cff73.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asset/poke/Buildings/pallet town/mat.png"
-dest_files=["res://.godot/imported/mat.png-328abbe52e696fc73f54b05cc874078f.ctex"]
+source_file="res://asset/tiles/Blue_Pixel_Camping_Tent_Sprite-removebg-preview.png"
+dest_files=["res://.godot/imported/Blue_Pixel_Camping_Tent_Sprite-removebg-preview.png-f29d1b954dcffce98971be40179cff73.ctex"]
 
 [params]
 

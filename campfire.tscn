@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://cae2ycvu0hake"]
+
+[ext_resource type="Texture2D" uid="uid://da685hpv7x6ph" path="res://asset/tiles/Pixel Campfire and Tent Sprite Sheet.png" id="1_kvmle"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_b7n0c"]
+size = Vector2(32, 16)
+
+[node name="Campfire" type="StaticBody2D" unique_id=2043319952]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1042997611]
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("1_kvmle")
+centered = false
+region_enabled = true
+region_rect = Rect2(145.15659, 326.88083, 324.76413, 282.17215)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=555980066]
+position = Vector2(16, 8)
+shape = SubResource("RectangleShape2D_b7n0c")

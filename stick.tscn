@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://cfrm1x2uvk6bo"]
+
+[ext_resource type="Texture2D" uid="uid://b2mn7rkonyiw7" path="res://asset/tiles/Harvest Sumer Free Ver. Pack/Vegetation/Some Objects.png" id="1_agfe5"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_b7n0c"]
+size = Vector2(16, 16)
+
+[node name="Stick" type="Area2D" unique_id=1569617379]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2014506257]
+texture = ExtResource("1_agfe5")
+centered = false
+region_enabled = true
+region_rect = Rect2(16.98092, 17.029018, 15.026075, 15.003094)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=624847850]
+position = Vector2(8, 8)
+shape = SubResource("RectangleShape2D_b7n0c")
