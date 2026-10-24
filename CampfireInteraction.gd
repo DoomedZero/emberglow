@@ -3,29 +3,23 @@ extends Area2D
 @export var stick_cost: int = 5
 
 var is_lit: bool = false
-var unlit_sprite: Sprite2D
-var lit_sprite: Sprite2D
+var flame: Sprite2D
 
 
 func _ready() -> void:
 	add_to_group("interactable")
 
-	var campfire_root := get_parent()
-
-	unlit_sprite = campfire_root.find_child(
-		"UnlitSprite", true, false
+	# Find the Flame sprite under the Campfire parent.
+	flame = get_parent().find_child(
+		"Flame", true, false
 	) as Sprite2D
 
-	lit_sprite = campfire_root.find_child(
-		"LitSprite", true, false
-	) as Sprite2D
-
-	if unlit_sprite == null or lit_sprite == null:
-		push_error("Campfire: Missing UnlitSprite or LitSprite.")
+	if flame == null:
+		push_error("Campfire: Could not find a Sprite2D named 'Flame'.")
 		return
 
-	unlit_sprite.show()
-	lit_sprite.hide()
+	# The flame starts hidden.
+	flame.hide()
 
 
 func get_prompt_text() -> String:
@@ -42,15 +36,16 @@ func get_prompt_text() -> String:
 
 func interact() -> void:
 	if is_lit:
-		print("The campfire is already lit!")
 		return
 
-	if not Inventory.spend_sticks(stick_cost):
-		print("Not enough sticks!")
+	if flame == null:
 		return
 
-	unlit_sprite.hide()
-	lit_sprite.show()
+	if not Inventory.has_sticks(stick_cost):
+		print("Not enough sticks to light the campfire!")
+		return
 
-	is_lit = true
-	print("Campfire lit!")
+	if Inventory.spend_sticks(stick_cost):
+		flame.show()
+		is_lit = true
+		print("Campfire lit!")
