@@ -818,6 +818,8 @@ offset_left = 16.0
 offset_top = 16.0
 offset_right = 56.0
 offset_bottom = 39.0
+theme_override_colors/font_outline_color = Color(0.09019608, 0.13725491, 0.105882354, 1)
+theme_override_constants/outline_size = 1
 theme_override_fonts/font = ExtResource("10_4c57u")
 
 [node name="InteractionPrompt" type="PanelContainer" parent="HUD" unique_id=292101931 groups=["interaction_prompt"]]

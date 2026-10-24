@@ -9,4 +9,4 @@ func _ready() -> void:
 
 
 func _on_sticks_changed(new_count: int) -> void:
-	stick_count_label.text = "Sticks: %d" % new_count
+	stick_count_label.text = "Sticks : %d" % new_count
