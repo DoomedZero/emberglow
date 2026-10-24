@@ -196,6 +196,12 @@ position = Vector2(-64, 0)
 [node name="Stick6" parent="Sticks" unique_id=701009020 instance=ExtResource("8_5vw27")]
 position = Vector2(208, -80)
 
+[node name="Stick8" parent="Sticks" unique_id=1569617379 instance=ExtResource("8_5vw27")]
+position = Vector2(192, 48)
+
+[node name="Stick9" parent="Sticks" unique_id=798917511 instance=ExtResource("8_5vw27")]
+position = Vector2(-176, -48)
+
 [node name="Stick7" parent="Sticks" unique_id=878294508 instance=ExtResource("8_5vw27")]
 position = Vector2(-176, 144)
 
