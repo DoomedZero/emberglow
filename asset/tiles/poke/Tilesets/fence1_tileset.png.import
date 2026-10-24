@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cbujhgnugi78u"
-path="res://.godot/imported/tall_grass.png-71ac104215ff629ea9af7453d414d4b1.ctex"
+uid="uid://ts088rox1613"
+path="res://.godot/imported/fence1_tileset.png-22982b1c610233c3277e579b62f8d0f3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asset/poke/Grass/tall_grass.png"
-dest_files=["res://.godot/imported/tall_grass.png-71ac104215ff629ea9af7453d414d4b1.ctex"]
+source_file="res://asset/tiles/poke/Tilesets/fence1_tileset.png"
+dest_files=["res://.godot/imported/fence1_tileset.png-22982b1c610233c3277e579b62f8d0f3.ctex"]
 
 [params]
 

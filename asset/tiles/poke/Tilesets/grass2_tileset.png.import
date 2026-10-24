@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dpdbsyn1fqcab"
-path="res://.godot/imported/Blue_Pixel_Camping_Tent_Sprite-removebg-preview.png-f29d1b954dcffce98971be40179cff73.ctex"
+uid="uid://jie48lffhxy3"
+path="res://.godot/imported/grass2_tileset.png-eaae5a2238c581a24f53380955024ee1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asset/tiles/Blue_Pixel_Camping_Tent_Sprite-removebg-preview.png"
-dest_files=["res://.godot/imported/Blue_Pixel_Camping_Tent_Sprite-removebg-preview.png-f29d1b954dcffce98971be40179cff73.ctex"]
+source_file="res://asset/tiles/poke/Tilesets/grass2_tileset.png"
+dest_files=["res://.godot/imported/grass2_tileset.png-eaae5a2238c581a24f53380955024ee1.ctex"]
 
 [params]
 

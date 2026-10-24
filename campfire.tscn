@@ -1,8 +1,8 @@
 [gd_scene format=3 uid="uid://cae2ycvu0hake"]
 
-[ext_resource type="Texture2D" uid="uid://da685hpv7x6ph" path="res://asset/tiles/Pixel Campfire and Tent Sprite Sheet.png" id="1_kvmle"]
+[ext_resource type="Texture2D" uid="uid://da685hpv7x6ph" path="res://asset/tiles/custom/Pixel Campfire and Tent Sprite Sheet.png" id="1_kvmle"]
 [ext_resource type="Script" uid="uid://rsmv03wmb0dr" path="res://CampfireInteraction.gd" id="2_b5him"]
-[ext_resource type="Texture2D" uid="uid://dtt4gi2qwf8ex" path="res://asset/tiles/Fogo_1.png" id="3_y2ey3"]
+[ext_resource type="Texture2D" uid="uid://dtt4gi2qwf8ex" path="res://asset/tiles/custom/Fogo_1.png" id="3_y2ey3"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_b7n0c"]
 size = Vector2(32, 16)

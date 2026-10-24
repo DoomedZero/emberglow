@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dgk4ftelr5f10"
-path="res://.godot/imported/ledge.png-7832998f259653eecfbd4d2268997ef8.ctex"
+uid="uid://cty6twtdkqwpc"
+path="res://.godot/imported/Male_Spritesheet.png-7396daf10f49af0af3d9036fc357c982.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asset/poke/Tilesets/ledge.png"
-dest_files=["res://.godot/imported/ledge.png-7832998f259653eecfbd4d2268997ef8.ctex"]
+source_file="res://asset/tiles/poke/Player/Male_Spritesheet.png"
+dest_files=["res://.godot/imported/Male_Spritesheet.png-7396daf10f49af0af3d9036fc357c982.ctex"]
 
 [params]
 

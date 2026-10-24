@@ -3,12 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://d20d2mpg8mmg1"
-path="res://.godot/imported/pokemon_fire_red.ttf-1f1ab912114096510016fb06c79c1ed2.fontdata"
+path="res://.godot/imported/pokemon_fire_red.ttf-593081feba6831661220e337bd9b926a.fontdata"
 
 [deps]
 
-source_file="res://asset/pokemon-fire-red-cufonfonts/pokemon_fire_red.ttf"
-dest_files=["res://.godot/imported/pokemon_fire_red.ttf-1f1ab912114096510016fb06c79c1ed2.fontdata"]
+source_file="res://asset/fonts/pokemon_fire_red.ttf"
+dest_files=["res://.godot/imported/pokemon_fire_red.ttf-593081feba6831661220e337bd9b926a.fontdata"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bo2s24jjujol1"
-path="res://.godot/imported/zeo254-completed-commission.png-7d8467392bef2fa3515aaf755708b9a7.ctex"
+uid="uid://dtt4gi2qwf8ex"
+path="res://.godot/imported/Fogo_1.png-4834aa0ac34205edf8eb0b5ebe40e456.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asset/tiles/zeo254-completed-commission.png"
-dest_files=["res://.godot/imported/zeo254-completed-commission.png-7d8467392bef2fa3515aaf755708b9a7.ctex"]
+source_file="res://asset/tiles/custom/Fogo_1.png"
+dest_files=["res://.godot/imported/Fogo_1.png-4834aa0ac34205edf8eb0b5ebe40e456.ctex"]
 
 [params]
 

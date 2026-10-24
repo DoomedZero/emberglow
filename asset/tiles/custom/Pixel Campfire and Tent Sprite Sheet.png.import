@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://vlvvtjav40qf"
-path="res://.godot/imported/tree1.png-e8bd84622d062497e0a3b5ca5f9a97b8.ctex"
+uid="uid://da685hpv7x6ph"
+path="res://.godot/imported/Pixel Campfire and Tent Sprite Sheet.png-6f0810fde5bf1477f0bd33e66d83c079.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asset/poke/Trees/tree1.png"
-dest_files=["res://.godot/imported/tree1.png-e8bd84622d062497e0a3b5ca5f9a97b8.ctex"]
+source_file="res://asset/tiles/custom/Pixel Campfire and Tent Sprite Sheet.png"
+dest_files=["res://.godot/imported/Pixel Campfire and Tent Sprite Sheet.png-6f0810fde5bf1477f0bd33e66d83c079.ctex"]
 
 [params]
 

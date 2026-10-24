@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://lqgbxdtvcise"
-path="res://.godot/imported/stepped_tall_grass.png-be8a3754217f2f814aa1ae71e6232fa4.ctex"
+uid="uid://bo2s24jjujol1"
+path="res://.godot/imported/zeo254-completed-commission.png-867dbae7d66d60d2f65e723554934aa8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asset/poke/Grass/stepped_tall_grass.png"
-dest_files=["res://.godot/imported/stepped_tall_grass.png-be8a3754217f2f814aa1ae71e6232fa4.ctex"]
+source_file="res://asset/tiles/custom/zeo254-completed-commission.png"
+dest_files=["res://.godot/imported/zeo254-completed-commission.png-867dbae7d66d60d2f65e723554934aa8.ctex"]
 
 [params]
 

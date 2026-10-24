@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://bh7emde0wyvmo"]
 
-[ext_resource type="Texture2D" uid="uid://cty6twtdkqwpc" path="res://asset/poke/Player/Male_Spritesheet.png" id="1_4flbx"]
+[ext_resource type="Texture2D" uid="uid://cty6twtdkqwpc" path="res://asset/tiles/poke/Player/Male_Spritesheet.png" id="1_4flbx"]
 [ext_resource type="Script" uid="uid://dq56k6wnaqdff" path="res://player.gd" id="1_onrkg"]
 [ext_resource type="Script" uid="uid://cp0kk3ieky5i1" path="res://InteractionArea.gd" id="3_i3pqv"]
 

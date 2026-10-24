@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://da685hpv7x6ph"
-path="res://.godot/imported/Pixel Campfire and Tent Sprite Sheet.png-72af32aa4507036d52e8a82bda4b50a7.ctex"
+uid="uid://lqgbxdtvcise"
+path="res://.godot/imported/stepped_tall_grass.png-c47f48593c3c7f58e28b33a26829694d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asset/tiles/Pixel Campfire and Tent Sprite Sheet.png"
-dest_files=["res://.godot/imported/Pixel Campfire and Tent Sprite Sheet.png-72af32aa4507036d52e8a82bda4b50a7.ctex"]
+source_file="res://asset/tiles/poke/Grass/stepped_tall_grass.png"
+dest_files=["res://.godot/imported/stepped_tall_grass.png-c47f48593c3c7f58e28b33a26829694d.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dd5qup3ah0tpb"
-path="res://.godot/imported/jump_landing_dust.png-0f47129e47056c43d5b245dc47811268.ctex"
+uid="uid://vlvvtjav40qf"
+path="res://.godot/imported/tree1.png-345ca75e8dad3ed8e9901197ca62e195.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asset/poke/Player/jump_landing_dust.png"
-dest_files=["res://.godot/imported/jump_landing_dust.png-0f47129e47056c43d5b245dc47811268.ctex"]
+source_file="res://asset/tiles/poke/Trees/tree1.png"
+dest_files=["res://.godot/imported/tree1.png-345ca75e8dad3ed8e9901197ca62e195.ctex"]
 
 [params]
 

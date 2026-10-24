@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://baqhqpdu20mgo"]
 
-[ext_resource type="Texture2D" uid="uid://dpdbsyn1fqcab" path="res://asset/tiles/Blue_Pixel_Camping_Tent_Sprite-removebg-preview.png" id="1_kvmle"]
+[ext_resource type="Texture2D" uid="uid://dpdbsyn1fqcab" path="res://asset/tiles/custom/Blue_Pixel_Camping_Tent_Sprite-removebg-preview.png" id="1_kvmle"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_b7n0c"]
 size = Vector2(48, 32)

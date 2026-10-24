@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cpqd5w5aiuveo"
-path="res://.godot/imported/grass_step_animation.png-75be170fb19656e0b7263f9ddf323865.ctex"
+uid="uid://cyvbmsennb028"
+path="res://.godot/imported/player_shadow.png-a2111c93c0a85de0f2e9db8a8cd03a2d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asset/poke/Grass/grass_step_animation.png"
-dest_files=["res://.godot/imported/grass_step_animation.png-75be170fb19656e0b7263f9ddf323865.ctex"]
+source_file="res://asset/tiles/poke/Player/player_shadow.png"
+dest_files=["res://.godot/imported/player_shadow.png-a2111c93c0a85de0f2e9db8a8cd03a2d.ctex"]
 
 [params]
 

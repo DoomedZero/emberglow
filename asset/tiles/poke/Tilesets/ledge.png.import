@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cyvbmsennb028"
-path="res://.godot/imported/player_shadow.png-2c9d400d22cbc227f86bdddf349ecf62.ctex"
+uid="uid://dgk4ftelr5f10"
+path="res://.godot/imported/ledge.png-c4795d8d3a644d5fae2deec39bec6c90.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asset/poke/Player/player_shadow.png"
-dest_files=["res://.godot/imported/player_shadow.png-2c9d400d22cbc227f86bdddf349ecf62.ctex"]
+source_file="res://asset/tiles/poke/Tilesets/ledge.png"
+dest_files=["res://.godot/imported/ledge.png-c4795d8d3a644d5fae2deec39bec6c90.ctex"]
 
 [params]
 
