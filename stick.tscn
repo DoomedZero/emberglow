@@ -1,11 +1,13 @@
 [gd_scene format=3 uid="uid://cfrm1x2uvk6bo"]
 
+[ext_resource type="Script" uid="uid://er4lx0gfw4u" path="res://Stick.gd" id="1_1hssm"]
 [ext_resource type="Texture2D" uid="uid://b2mn7rkonyiw7" path="res://asset/tiles/Harvest Sumer Free Ver. Pack/Vegetation/Some Objects.png" id="1_agfe5"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_b7n0c"]
 size = Vector2(16, 16)
 
-[node name="Stick" type="Area2D" unique_id=1569617379]
+[node name="Stick" type="Area2D" unique_id=1569617379 groups=["interactable"]]
+script = ExtResource("1_1hssm")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=2014506257]
 texture = ExtResource("1_agfe5")
